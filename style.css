@@ -22,7 +22,7 @@ body {background-image: url('assets/background-01.svg');
 }
 
 #front-card{
-  background-image: url('assets/frontdesign-01.svg');
+  background-image: url('assets/frontdesign-01-01.svg');
   background-size:cover;
 }
  
@@ -34,12 +34,13 @@ body {background-image: url('assets/background-01.svg');
 h1{
   /* to left align text */
   font-size: 4em;
+  gap: 20px;
    color: rgb(106, 126, 214);
   margin-top: 75%;
-  margin-left:22%;
+  margin-left:16.5%;
   
 
-font-family: 'Raleway', sans-serif;
+font-family: 'Patheos', sans-serif;
 }
 
 .back-text {
@@ -62,9 +63,10 @@ h5{
 
 .icon-container{
   width:15%;
-  margin-top: -80%;
-  margin-left:20%;
+  margin-top: 60%;
+  margin-left:42%;
   display:grid;
+  gap:35px;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
@@ -79,6 +81,7 @@ svg:hover{
     background-color: lightblue;
   }
   .card{
+    
   width:60%;
   /* width:400px; */
 /* height:750px; */
